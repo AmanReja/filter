@@ -100,7 +100,7 @@ const Fileinp = () => {
                     {Object.values(row).map((value, colIndex, index) => (
                       <td
                         key={colIndex}
-                        className="px-4 py-2 text-sm text-gray-600 border"
+                        className="px-4 py-2 text-sm text-red-600 border"
                       >
                         {value}
                       </td>
